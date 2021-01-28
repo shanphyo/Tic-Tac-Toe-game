@@ -101,7 +101,7 @@ class MainActivity : AppCompatActivity() {
                    txt_useronecount.setText(useronescold.toString())
                    completeGame(false)
                }else{
-                   System.out.println("Drawer")
+                   resultDialog("","Drawer")
                }
 
            }
